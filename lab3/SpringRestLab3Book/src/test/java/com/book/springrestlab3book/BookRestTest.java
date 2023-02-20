@@ -87,7 +87,7 @@ public class BookRestTest {
                 .then()
                 .statusCode(404)
                 .and()
-                .body("errorMessage",equalTo("Book with ISBN 1234 Not Found!"));
+                .body("errorMessage", equalTo("Book with ISBN 1234 Not Found!"));
     }
 
     @Test
@@ -105,6 +105,23 @@ public class BookRestTest {
                 .body("author", hasItems("Google Publication", "Larry Edision"));
         cleanUpBook();
 
+    }
+
+    @Test
+    public void testSearchBook() {
+        loadBook();
+        given()
+                .when()
+                .get("books/search?author=Google Publication")
+                .then()
+                .statusCode(200)
+                .and()
+                .body("isbn", hasItems("1234"))
+                .body("title", hasItems("The Complete Angular"))
+                .body("price", hasItems(120.0f))
+                .body("author", hasItems("Google Publication"));
+
+        cleanUpBook();
     }
 
     public void loadBook() {
