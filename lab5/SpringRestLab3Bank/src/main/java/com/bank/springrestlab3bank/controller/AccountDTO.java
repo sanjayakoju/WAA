@@ -24,8 +24,7 @@ public class AccountDTO {
     public AccountDTO(int accountNumber, String accountHolder, double balance, List<Transaction> transactions) {
         this.accountNumber = accountNumber;
         this.accountHolder = accountHolder;
-        this.balance = balance;
-        this.transactions = transactions;
+
     }
 
     public AccountDTO(int accountNumber, String accountHolder) {
@@ -63,5 +62,15 @@ public class AccountDTO {
 
     public void setTransactions(List<Transaction> transactions) {
         this.transactions = transactions;
+    }
+
+    @Override
+    public String toString() {
+        return "AccountDTO{" +
+                "accountNumber=" + accountNumber +
+                ", accountHolder='" + accountHolder + '\'' +
+                ", balance=" + balance +
+                ", transactions=" + transactions +
+                '}';
     }
 }
