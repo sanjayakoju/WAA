@@ -93,7 +93,7 @@ public class BookRestTest {
 
     @Test
     public void testGetAllBooks() {
-        loadBook();
+//        loadBook();
         given()
                 .when()
                 .get("books")
