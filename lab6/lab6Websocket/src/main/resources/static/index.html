@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Calulator</title>
+    <script type="text/javascript">
+        var ws;
+
+        function connect() {
+            ws = new WebSocket("ws://localhost:8080/calculate")
+
+            ws.onmessage = function (event) {
+                showResult(event.data);
+            }
+
+            ws.onclose = function (event) {
+                showResult("Connection closed!");
+            }
+        }
+
+        function sendInput() {
+            var text = document.getElementById("inputValue").value;
+            if (text == undefined || text == null || text == "") {
+                outputValue.innerHTML += "</br>" + "Expression field can not be null!";
+            } else {
+                ws.send(text);
+                console.log(text);
+            }
+        }
+
+        function showResult(result) {
+            outputValue.innerHTML += "</br>" + result;
+        }
+
+        function disconnect() {
+            if (ws != null) {
+                ws.close();
+            }
+        }
+    </script>
+</head>
+<body>
+<div>
+    <button id="connect" type="button" onclick="connect()">Connect</button>
+    <button id="disconnect" type="button" onclick="disconnect()">Disconnect</button>
+    <div>
+        <h3>Welcome to Lab 6 Calculator Using Socket</h3><br>
+        <label> Enter the operation : </label></label><input type="text" id="inputValue" required/><br><br>
+        <label id="outputValue"></label><br><br>
+        <button type="button" id="calculate" onclick="sendInput()">Calculate</button>
+    </div>
+</div>
+
+</body>
+</html>
