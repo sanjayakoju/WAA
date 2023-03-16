@@ -1,0 +1,74 @@
+package com.bank.lab7GraphQLBank.controller;
+
+import com.bank.lab7GraphQLBank.model.Transaction;
+
+import javax.validation.constraints.NotEmpty;
+import javax.validation.constraints.NotNull;
+import java.util.List;
+
+public class AccountDTO {
+
+    private int accountNumber;
+    @NotNull
+    @NotEmpty(message = "Account Holder Name Can not be Empty!")
+    private String accountHolder;
+    private double balance;
+
+    private List<Transaction> transactions;
+
+    public AccountDTO() {
+    }
+
+    public AccountDTO(int accountNumber, String accountHolder, double balance, List<Transaction> transactions) {
+        this.accountNumber = accountNumber;
+        this.accountHolder = accountHolder;
+
+    }
+
+    public AccountDTO(int accountNumber, String accountHolder) {
+        this.accountNumber = accountNumber;
+        this.accountHolder = accountHolder;
+    }
+
+    public int getAccountNumber() {
+        return accountNumber;
+    }
+
+    public void setAccountNumber(int accountNumber) {
+        this.accountNumber = accountNumber;
+    }
+
+    public String getAccountHolder() {
+        return accountHolder;
+    }
+
+    public void setAccountHolder(String accountHolder) {
+        this.accountHolder = accountHolder;
+    }
+
+    public double getBalance() {
+        return balance;
+    }
+
+    public void setBalance(double balance) {
+        this.balance = balance;
+    }
+
+    public List<Transaction> getTransactions() {
+        return transactions;
+    }
+
+    public void setTransactions(List<Transaction> transactions) {
+        this.transactions = transactions;
+    }
+
+    @Override
+    public String toString() {
+        return "AccountDTO{" +
+                "accountNumber=" + accountNumber +
+                ", accountHolder='" + accountHolder + '\'' +
+                ", balance=" + balance +
+                ", transactions=" + transactions +
+                '}';
+    }
+}

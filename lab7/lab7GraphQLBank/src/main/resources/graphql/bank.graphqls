@@ -1,0 +1,36 @@
+type Account {
+    accountNumber : Int!
+    accountHolder: String!
+    balance: Float
+    transaction: [Transaction]
+}
+
+scalar DateTime
+
+input InputAccount {
+    accountNumber : Int!
+    accountHolder: String!
+    balance: Float
+}
+
+enum TransactionType {
+    DEPOSIT
+    WITHDRAW
+}
+
+type Transaction {
+    amount: Float!
+    transactionType: [TransactionType!]
+    dateTime: DateTime
+}
+
+type Query {
+    getAccount(accountNumber : Int!): Account
+}
+
+type Mutation {
+    createAccount(account :InputAccount!): Account
+    deleteAccount(accountNumber : Int!): Account
+    deposit(accountNumber : Int!, amount: Float!): Account
+    withdraw(accountNumber : Int!, amount: Float!): Account
+}

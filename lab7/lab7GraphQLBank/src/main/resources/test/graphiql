@@ -1,0 +1,43 @@
+# mutation {
+#   createAccount(account : {
+#     accountNumber: 123,
+#     accountHolder: "Sanjaya",
+#     balance: 0,
+
+#   }) {
+#     accountNumber,
+#     accountHolder
+#   }
+# }
+
+mutation {
+  deposit(accountNumber: 123, amount: 200) {
+  	accountNumber,
+    accountHolder,
+    balance,
+    transaction {
+      transactionType
+    }
+  }
+}
+
+# {
+#   getAccount(accountNumber: 123) {
+#     accountNumber,
+#     accountHolder,
+#     balance,
+#   }
+# }
+
+
+
+# mutation {
+#   withdraw(accountNumber: 123, amount: 200) {
+#   	accountNumber,
+#     accountHolder,
+#     balance,
+#     transaction {
+#       transactionType
+#     }
+#   }
+# }
