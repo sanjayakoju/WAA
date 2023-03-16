@@ -1,0 +1,36 @@
+Note: Name of Mutation and Query show be match with the Function Name
+
+# mutation {
+#   createBook(
+#     isbn: "1452",
+#     title: "Java",
+#     price: 120,
+#     author: "Sanjaya") {
+#       isbn,title,price,author
+#     }
+# }
+
+{
+  getAllBooks,{
+    isbn,
+    title
+  }
+}
+
+# {
+#   getAllBookByAuthor(author : "Sanjaya") {
+#     isbn,title,author,price
+#   }
+# }
+
+# mutation {
+#   deleteBook(isbn : "1234") {
+#     isbn,title
+#   }
+# }
+
+# {
+#   getBookByCount(count : 1) {
+#     isbn
+#   }
+# }
