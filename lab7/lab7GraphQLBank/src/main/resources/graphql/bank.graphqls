@@ -21,7 +21,8 @@ enum TransactionType {
 type Transaction {
     amount: Float!
     transactionType: TransactionType!
-    dateTime: Date
+#    dateTime: Date
+    dateTime: String
 }
 
 type Query {
