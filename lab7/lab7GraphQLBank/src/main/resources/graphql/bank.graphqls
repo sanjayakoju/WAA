@@ -2,10 +2,10 @@ type Account {
     accountNumber : Int!
     accountHolder: String!
     balance: Float
-    transaction: [Transaction]
+    transactions: [Transaction]
 }
 
-scalar DateTime
+scalar Date
 
 input InputAccount {
     accountNumber : Int!
@@ -20,8 +20,8 @@ enum TransactionType {
 
 type Transaction {
     amount: Float!
-    transactionType: [TransactionType!]
-    dateTime: DateTime
+    transactionType: TransactionType!
+    dateTime: Date
 }
 
 type Query {
