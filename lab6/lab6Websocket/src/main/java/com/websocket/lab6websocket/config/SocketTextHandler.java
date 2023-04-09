@@ -16,9 +16,9 @@ public class SocketTextHandler extends TextWebSocketHandler {
         System.out.println("Connected");
 
         session.sendMessage(new TextMessage("Connected!"));
-        MyThread myThread = new MyThread(session);
-        Thread thread = new Thread(myThread);
-        thread.start();
+//        MyThread myThread = new MyThread(session);
+//        Thread thread = new Thread(myThread);
+//        thread.start();
     }
 
     @Override

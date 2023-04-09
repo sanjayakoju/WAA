@@ -27,6 +27,7 @@ type Transaction {
 
 type Query {
     getAccount(accountNumber : Int!): Account
+    get:Account
 }
 
 type Mutation {

@@ -4,10 +4,7 @@ import jakarta.servlet.http.HttpSession;
 import jakarta.validation.Valid;
 import org.springframework.stereotype.Controller;
 import org.springframework.validation.BindingResult;
-import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.ModelAttribute;
-import org.springframework.web.bind.annotation.PostMapping;
-import org.springframework.web.bind.annotation.RequestParam;
+import org.springframework.web.bind.annotation.*;
 import org.springframework.web.servlet.ModelAndView;
 
 import java.util.HashMap;
@@ -32,7 +29,7 @@ public class ProductController {
             modelAndView.setViewName("addProductPage");
             return modelAndView;
         }
-        Map<String, Object> map = new HashMap<>();
+//        Map<String, Object> map = new HashMap<>();
         if (product != null) {
             Map<String, Product> productList = (Map<String, Product>) httpSession.getAttribute("productList");
             if (productList == null) {
@@ -40,9 +37,12 @@ public class ProductController {
                 httpSession.setAttribute("productList", productList);
             }
             productList.put(product.getProductNumber(), product);
-            map.put("productList", productList.values());
+//            map.put("productList", productList.values());
         }
-        return new ModelAndView("redirect:products", map);
+//        modelAndView.addObject(map);
+        modelAndView.setViewName("redirect:products");
+        return modelAndView;
+//        return new ModelAndView("redirect:products", map);
     }
 
     @GetMapping("/products")

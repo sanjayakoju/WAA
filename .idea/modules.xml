@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/lab7/GraphQLDemo/GraphQLDemo.iml" filepath="$PROJECT_DIR$/lab7/GraphQLDemo/GraphQLDemo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/lab2/Lab2SpringMVC/Lab2SpringMVC.iml" filepath="$PROJECT_DIR$/lab2/Lab2SpringMVC/Lab2SpringMVC.iml" />
+      <module fileurl="file://$PROJECT_DIR$/lab7/lab7GraphQLBank/Lab7GraphQLBank.iml" filepath="$PROJECT_DIR$/lab7/lab7GraphQLBank/Lab7GraphQLBank.iml" />
+      <module fileurl="file://$PROJECT_DIR$/lab6/Lesson6WebfluxDemo/SpringBootReactive.iml" filepath="$PROJECT_DIR$/lab6/Lesson6WebfluxDemo/SpringBootReactive.iml" />
+      <module fileurl="file://$PROJECT_DIR$/lab1/Lab1SpringMVC/SpringBootServlet.iml" filepath="$PROJECT_DIR$/lab1/Lab1SpringMVC/SpringBootServlet.iml" />
+      <module fileurl="file://$PROJECT_DIR$/lab1/Lab1ServletCalculator/SpringBootServlet (1).iml" filepath="$PROJECT_DIR$/lab1/Lab1ServletCalculator/SpringBootServlet (1).iml" />
+      <module fileurl="file://$PROJECT_DIR$/lab5/Lesson5RestWithMongoDemo/SpringBootServlet (2).iml" filepath="$PROJECT_DIR$/lab5/Lesson5RestWithMongoDemo/SpringBootServlet (2).iml" />
+      <module fileurl="file://$PROJECT_DIR$/lab6/Lesson6WebSocketDemo/SpringBootServlet (3).iml" filepath="$PROJECT_DIR$/lab6/Lesson6WebSocketDemo/SpringBootServlet (3).iml" />
+      <module fileurl="file://$PROJECT_DIR$/lab6/Lesson6WebSocketChatDemo/SpringBootServlet (4).iml" filepath="$PROJECT_DIR$/lab6/Lesson6WebSocketChatDemo/SpringBootServlet (4).iml" />
+      <module fileurl="file://$PROJECT_DIR$/lab3/SpringRestLab3Bank/SpringRestLab3Bank.iml" filepath="$PROJECT_DIR$/lab3/SpringRestLab3Bank/SpringRestLab3Bank.iml" />
+      <module fileurl="file://$PROJECT_DIR$/lab4/SpringRestLab3Bank/SpringRestLab3Bank (1).iml" filepath="$PROJECT_DIR$/lab4/SpringRestLab3Bank/SpringRestLab3Bank (1).iml" />
+      <module fileurl="file://$PROJECT_DIR$/lab5/SpringRestLab3Bank/SpringRestLab3Bank (2).iml" filepath="$PROJECT_DIR$/lab5/SpringRestLab3Bank/SpringRestLab3Bank (2).iml" />
+      <module fileurl="file://$PROJECT_DIR$/lab3/SpringRestLab3Book/SpringRestLab3Book.iml" filepath="$PROJECT_DIR$/lab3/SpringRestLab3Book/SpringRestLab3Book.iml" />
+      <module fileurl="file://$PROJECT_DIR$/lab4/SpringRestLab3Book/SpringRestLab3Book (1).iml" filepath="$PROJECT_DIR$/lab4/SpringRestLab3Book/SpringRestLab3Book (1).iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/assignment.iml" filepath="$PROJECT_DIR$/.idea/assignment.iml" />
+      <module fileurl="file://$PROJECT_DIR$/lab6/lab6Webflux/lab6Webflux.iml" filepath="$PROJECT_DIR$/lab6/lab6Webflux/lab6Webflux.iml" />
+      <module fileurl="file://$PROJECT_DIR$/lab6/lab6Websocket/lab6Websocket.iml" filepath="$PROJECT_DIR$/lab6/lab6Websocket/lab6Websocket.iml" />
+      <module fileurl="file://$PROJECT_DIR$/lab7/lab7GraphQL/lab7GraphQL.iml" filepath="$PROJECT_DIR$/lab7/lab7GraphQL/lab7GraphQL.iml" />
+    </modules>
+  </component>
+</project>

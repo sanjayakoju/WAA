@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/Lesson6WebfluxDemo/SpringBootReactive.iml" filepath="$PROJECT_DIR$/Lesson6WebfluxDemo/SpringBootReactive.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Lesson6WebSocketDemo/SpringBootServlet.iml" filepath="$PROJECT_DIR$/Lesson6WebSocketDemo/SpringBootServlet.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Lesson6WebSocketChatDemo/SpringBootServlet (1).iml" filepath="$PROJECT_DIR$/Lesson6WebSocketChatDemo/SpringBootServlet (1).iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/lab6.iml" filepath="$PROJECT_DIR$/.idea/lab6.iml" />
+      <module fileurl="file://$PROJECT_DIR$/lab6Webflux/lab6Webflux.iml" filepath="$PROJECT_DIR$/lab6Webflux/lab6Webflux.iml" />
+      <module fileurl="file://$PROJECT_DIR$/lab6Websocket/lab6Websocket.iml" filepath="$PROJECT_DIR$/lab6Websocket/lab6Websocket.iml" />
+    </modules>
+  </component>
+</project>

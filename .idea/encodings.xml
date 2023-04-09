@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$/lab1/Lab1ServletCalculator/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/lab1/Lab1ServletCalculator/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/lab1/Lab1SpringMVC/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/lab1/Lab1SpringMVC/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/lab2/Lab2SpringMVC/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/lab2/Lab2SpringMVC/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/lab3/SpringRestLab3Bank/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/lab3/SpringRestLab3Bank/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/lab3/SpringRestLab3Book/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/lab3/SpringRestLab3Book/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/lab4/SpringRestLab3Bank/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/lab4/SpringRestLab3Bank/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/lab4/SpringRestLab3Book/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/lab4/SpringRestLab3Book/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/lab5/Lesson5RestWithMongoDemo/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/lab5/Lesson5RestWithMongoDemo/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/lab5/SpringRestLab3Bank/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/lab5/SpringRestLab3Bank/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/lab6/Lesson6WebSocketChatDemo/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/lab6/Lesson6WebSocketChatDemo/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/lab6/Lesson6WebSocketDemo/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/lab6/Lesson6WebSocketDemo/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/lab6/Lesson6WebfluxDemo/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/lab6/Lesson6WebfluxDemo/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/lab6/lab6Webflux/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/lab6/lab6Webflux/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/lab6/lab6Websocket/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/lab6/lab6Websocket/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/lab7/GraphQLDemo/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/lab7/GraphQLDemo/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/lab7/lab7GraphQL/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/lab7/lab7GraphQL/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/lab7/lab7GraphQLBank/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/lab7/lab7GraphQLBank/src/main/resources" charset="UTF-8" />
+  </component>
+</project>

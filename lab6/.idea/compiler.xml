@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="SpringBootServlet" />
+        <module name="lab6Webflux" />
+        <module name="SpringBootReactive" />
+        <module name="SpringBootServlet (1)" />
+        <module name="lab6Websocket" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="lab6Webflux" target="17" />
+      <module name="lab6Websocket" target="17" />
+      <module name="SpringBootReactive" target="1.8" />
+      <module name="SpringBootServlet" target="11" />
+      <module name="SpringBootServlet (1)" target="11" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="SpringBootReactive" options="-parameters" />
+      <module name="SpringBootServlet" options="-parameters" />
+      <module name="SpringBootServlet (1)" options="-parameters" />
+      <module name="lab6Webflux" options="-parameters" />
+      <module name="lab6Websocket" options="-parameters" />
+    </option>
+  </component>
+</project>

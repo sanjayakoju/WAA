@@ -25,11 +25,11 @@ public class CalculatorServlet extends HttpServlet {
         out.println("<head>SIMPLE CALCULATOR<br><br><br></head>");
         out.println("<body>");
         out.println("<form method = 'post' action = 'calc'>");
-        out.println("enter the first number:<br>");
+        out.println("Enter the first number:<br>");
         out.println("<input type = 'text' name='number1'><br><br>");
-        out.println("enter the second number:<br>");
+        out.println("Enter the second number:<br>");
         out.println("<input type = 'text' name='number2'><br><br>");
-        out.println("enter the operation:<br><br>");
+        out.println("Enter the operation:<br><br>");
         out.println("<input type ='radio' name = 'op' value = '+'>add<br>");
         out.println("<input type = 'radio' name = 'op' value = '-'>sub<br>");
         out.println("<input type = 'radio' name = 'op' value = '*'>mul<br>");

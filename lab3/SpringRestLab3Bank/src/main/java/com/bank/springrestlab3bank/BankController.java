@@ -9,7 +9,7 @@ public class BankController {
 
     private AccountDetails accountDetail = new AccountDetails();
 
-    @PostMapping("/banks")
+    @PostMapping(value = "/banks", produces = "application/json")
     public ResponseEntity<?> createAccount(@RequestBody BankAccount account) {
         if(account == null) {
             return new ResponseEntity<>(new CustomError("Account Detail are Empty!"), HttpStatus.NOT_FOUND);

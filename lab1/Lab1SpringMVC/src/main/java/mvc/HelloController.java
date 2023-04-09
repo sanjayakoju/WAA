@@ -22,7 +22,8 @@ public class HelloController {
 
     @RequestMapping("/calc")
     public ModelAndView calculate(@RequestParam(value = "num1") int num1,
-                                  @RequestParam(value = "num2") int num2, @RequestParam(value = "op") String op) {
+                                  @RequestParam(value = "num2") int num2,
+                                  @RequestParam(value = "op") String op) {
 
         double result = 0;
         Calculation calculation = new Calculation();

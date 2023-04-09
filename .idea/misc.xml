@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="MavenProjectsManager">
+    <option name="originalFiles">
+      <list>
+        <option value="$PROJECT_DIR$/lab1/Lab1SpringMVC/pom.xml" />
+        <option value="$PROJECT_DIR$/lab1/Lab1ServletCalculator/pom.xml" />
+        <option value="$PROJECT_DIR$/lab2/Lab2SpringMVC/pom.xml" />
+        <option value="$PROJECT_DIR$/lab3/SpringRestLab3Bank/pom.xml" />
+        <option value="$PROJECT_DIR$/lab3/SpringRestLab3Book/pom.xml" />
+        <option value="$PROJECT_DIR$/lab4/SpringRestLab3Bank/pom.xml" />
+        <option value="$PROJECT_DIR$/lab4/SpringRestLab3Book/pom.xml" />
+        <option value="$PROJECT_DIR$/lab5/SpringRestLab3Bank/pom.xml" />
+        <option value="$PROJECT_DIR$/lab5/Lesson5RestWithMongoDemo/pom.xml" />
+        <option value="$PROJECT_DIR$/lab6/lab6Webflux/pom.xml" />
+        <option value="$PROJECT_DIR$/lab6/lab6Websocket/pom.xml" />
+        <option value="$PROJECT_DIR$/lab6/Lesson6WebfluxDemo/pom.xml" />
+        <option value="$PROJECT_DIR$/lab6/Lesson6WebSocketDemo/pom.xml" />
+        <option value="$PROJECT_DIR$/lab6/Lesson6WebSocketChatDemo/pom.xml" />
+        <option value="$PROJECT_DIR$/lab7/GraphQLDemo/pom.xml" />
+        <option value="$PROJECT_DIR$/lab7/lab7GraphQL/pom.xml" />
+        <option value="$PROJECT_DIR$/lab7/lab7GraphQLBank/pom.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_19" default="true" project-jdk-name="openjdk-19" project-jdk-type="JavaSDK" />
+</project>
