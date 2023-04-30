@@ -17,21 +17,21 @@ function App() {
                 <table>
                     <tr>
                         <td>
-                            <CounterComponent handleCallBack={callBack} num={1} countNum={count}/>
+                            <CounterComponent callCallBack={callBack} num={1} countNum={count}/>
                         </td>
                         &nbsp; &nbsp;
                         <td>
-                            <CounterComponent handleCallBack={callBack} num={3} countNum={count}/>
+                            <CounterComponent callCallBack={callBack} num={3} countNum={count}/>
                         </td>
                     </tr>
 
                     <tr>
                         <td>
-                            <CounterComponent handleCallBack={callBack} num={5} countNum={count}/>
+                            <CounterComponent callCallBack={callBack} num={5} countNum={count}/>
                         </td>
                         &nbsp; &nbsp;
                         <td>
-                            <CounterComponent handleCallBack={callBack} num={8} countNum={count}/>
+                            <CounterComponent callCallBack={callBack} num={8} countNum={count}/>
                         </td>
                     </tr>
                 </table>

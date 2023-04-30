@@ -9,6 +9,7 @@ import java.util.List;
 import java.util.Map;
 
 @RestController
+@CrossOrigin
 public class BookController {
 
     Map<String, Book> bookMap = new HashMap<>();
@@ -50,7 +51,7 @@ public class BookController {
     public ResponseEntity<?> deleteBook(@PathVariable String isbn) {
         if(bookMap.containsKey(isbn)) {
             bookMap.remove(isbn);
-            return new ResponseEntity<>("Book with ISBN : "+isbn+" Delete Successfully!", HttpStatus.NOT_FOUND);
+            return new ResponseEntity<>("Book with ISBN : "+isbn+" Delete Successfully!", HttpStatus.OK);
         }
         return new ResponseEntity<>(new CustomError("Book with ISBN "+isbn+" Not Found!"), HttpStatus.NOT_FOUND);
     }

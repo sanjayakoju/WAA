@@ -7,13 +7,13 @@ export const CounterComponent = (props) => {
     const increment = () => {
         count += props.num
         setCount(count);
-        props.handleCallBack(count);
+        props.callCallBack(count);
     }
 
     const decrement = () => {
         count -= props.num
         setCount(count);
-        props.handleCallBack(count);
+        props.callCallBack(count);
     }
 
     return (
