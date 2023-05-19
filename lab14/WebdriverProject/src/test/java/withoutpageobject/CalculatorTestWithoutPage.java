@@ -11,7 +11,7 @@ import org.openqa.selenium.chrome.ChromeDriver;
 import static org.hamcrest.CoreMatchers.is;
 import static org.junit.Assert.assertThat;
 
-public class CalculatorTest {
+public class CalculatorTestWithoutPage {
 	private WebDriver driver;
 
 	@Before
